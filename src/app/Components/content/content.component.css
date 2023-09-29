@@ -1,0 +1,44 @@
+.Content{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Botones{
+    width: 30%;
+    background-color: rgba(225, 230, 230, 0.522);
+    flex-direction: column;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.CreateTask,.ListarTask{
+    display: flex;
+    align-items: center;
+
+margin: auto;
+margin-top: 30px;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(180, 180, 184);
+    cursor: pointer;
+}
+.CreateTask p,.ListarTask p{
+text-align: center;
+
+margin: auto;
+font-weight: bold;
+
+}
+.Resultados{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    width: 70%;
+}
+.ContainerResult{
+    background-color: rgb(180, 180, 184);
+width: 80%;
+height: 400px;
+}
